@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> proste obliczenia</title>
+<meta charset="utf-8">
+</head>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("liczba1=","");
+var godzina1=prompt("godzina1=","");
+var liczba2=prompt("liczba2=","");
+var godzina2=prompt("godzina2=","");
+var ile_sekund_jur;
+var D1_jur=parseFloat(liczba1);
+var D2_jur=parseFloat(liczba2);
+var G1_jur=parseFloat(godzina1);
+var G2_jur=parseFloat(godzina2);
+ile_sekund_jur=((D2_jur-D1_jur)*24*3600)+((G2_jur-G1_jur)*3600);
+document.write("D1="+D1_jur+" G1="+G1_jur+" D2="+D2_jur+" G2="+G2_jur);
+document.write(" ile_sekund="+ile_sekund_jur+" s"+"<br>");
+</script>
+</div>
+</body>
+</html>
